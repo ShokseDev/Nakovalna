@@ -1,0 +1,85 @@
+.footer {
+    margin-top: 70px;
+    padding: 40px 0;
+    background-color: $main-color;
+    color: #fff;
+    z-index: -1;
+
+    &__logo {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+
+        img {
+            max-width: 285px;
+            height: 60px;
+            object-fit: contain;
+        }
+    }
+
+    &__contacts {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        &-item {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex; 
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-right: 37px;
+
+            img {
+                width: 30px;
+                height: 30px;
+                margin-right: 18px;
+                fill: #fff;
+            }
+
+            a {
+                display: block;
+                color: #fff;
+                font-size: 11px;
+                text-decoration: none;
+            }
+
+            address {
+                font-size: 11px;
+                font-style: normal;
+                margin-bottom: 0;
+                line-height: 15px;
+            }
+        }
+    }
+
+    &__policy {
+        margin-top: 15px;
+        margin-right: 10px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 11px;
+        line-height: 13px;
+        text-align: right;
+    }
+}
