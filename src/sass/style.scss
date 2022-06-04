@@ -18,7 +18,7 @@
     color: #3A3845;
 
     &_mini {
-        text-align-last: left;
+        text-align: left;
         font-size: 25px;
     }
 }
@@ -32,3 +32,4 @@
 @import 'blocks/footer';
 @import 'blocks/contacts';
 @import 'blocks/services';
+@import 'blocks/media';

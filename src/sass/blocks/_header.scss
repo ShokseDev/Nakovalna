@@ -3,6 +3,10 @@
     background: $main-color;
     color: #fff;
 
+    &__hamburger {
+        display: none;
+    }
+
     &__logo {
         display: -webkit-box;
         display: -webkit-flex;
