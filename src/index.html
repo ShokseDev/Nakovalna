@@ -21,7 +21,7 @@
                         <img src="./icons/logo/logo.svg" alt="Фортуна" class="header__logo-img">
                     </a>
                 </div>
-                <div class="col-md-12 col-lg-9 offset-lg-0 col-xl-7 offset-xl-2 ">
+                <div class="col-md-12 col-lg-9 offset-lg-0 col-xl-9 ">
                     <div class="header__contacts">
                         <div class="header__contacts-item">
                             <img src="./icons/contacts/mail.svg" alt="почта" class="header__contacts-logo">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <nav class="row" data-slide="1">
+            <nav class="row header__menu" id="menu">
                 <ul class="header__nav">
                     <li>
                         <a class="header__nav-item" href="#works">Наши работы</a>
@@ -75,7 +75,9 @@
             <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
                 <h1 class="promo__title">изготовление кованых изделий и металлических конструкций любой сложности “под
                     ключ”.</h1>
-                <button class="promo__btn btn">Написать нам</button>
+                <a href="#contacts">
+                    <button class="promo__btn btn">Написать нам</button>
+                </a>
             </div>
         </div>
     </section>
@@ -319,7 +321,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h3 class="title title_mini">Свяжитесь с нами</h3>
-                        <div class="contacts__info">
+                        <div class="contacts__info" id="connection">
                             <div class="contacts__phones">
                                 <div class="contacts__phoneblock">
                                     <span>Телефон</span>
@@ -465,6 +467,9 @@
                 </div>
             </div>
     </footer>
+
+    <script src="https://kit.fontawesome.com/390878a2e6.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

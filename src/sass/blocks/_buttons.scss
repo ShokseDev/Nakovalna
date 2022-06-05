@@ -1,4 +1,8 @@
 .btn {
+
+    display: inline-block;
+    position: relative;
+    
     width: 200px;
     height: 45px;
     background: $main-color;
@@ -11,6 +15,34 @@
     line-height: 44px;
     text-align: center;
     color: #FFFFFF;
+
+    transition: all 0.2s linear 0s;
+  
+  &:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    // transition: all 0.2s linear 0s;
+  }
+  
+  &:hover {
+    text-indent: -20px;
+    
+    &:before {
+      opacity: 1;
+      text-indent: 0px;
+    }
+  }
+
 
     &_wide {
         width: 365px;
