@@ -1,5 +1,11 @@
 .catalog {
 
+    &__btn {
+        width: 325px;
+        margin: 0 auto;
+        margin-top: 62px;
+    }
+
     &__wrapper {
         display: -webkit-box;
         display: -webkit-flex;
@@ -49,6 +55,7 @@
             -webkit-transition: .5s;
             -o-transition: .5s;
             transition: .5s;
+            width: 100%;
         }
 
         &-title {
