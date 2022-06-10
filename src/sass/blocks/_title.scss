@@ -1,0 +1,15 @@
+.title {
+
+    margin-top: 75px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3A3845;
+
+    &_mini {
+        text-align: left;
+        font-size: 25px;
+    }
+}

@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фортуна</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Кузнечная Мастерская «Фортуна»</title>
+    <meta name="title" content="Кузнечная Мастерская «Фортуна»">
+    <meta name="description" content="Изготовление кованых изделий и металлических конструкций любой сложности “под ключ”.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Кузнечная Мастерская «Фортуна»">
+    <meta property="og:description" content="Изготовление кованых изделий и металлических конструкций любой сложности “под ключ”.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Кузнечная Мастерская «Фортуна»">
+    <meta property="twitter:description" content="Изготовление кованых изделий и металлических конструкций любой сложности “под ключ”.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <link rel="shortcut icon" href="./icons/favicon/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -13,7 +34,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header id="up" class="header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-8 col-sm-12 col-md-12 col-lg-3">
@@ -87,7 +108,7 @@
             <h2 class="title">Наши работы</h2>
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <img class="works__img" src="./images/about/camera.jpg" alt="наши работы">
+                    <img src="./images/about/camera.jpg" alt="" class="works__img">
                     <div class="works__buttons">
                         <button class="btn btn_wide">Галерея работ</button>
                         <button class="btn btn_wide">Готовые изделия</button>
@@ -475,8 +496,13 @@
             </div>
     </footer>
 
+    <a href="#up" class="pageup">
+        <img src="./icons/buttons/up.svg" alt="up">
+    </a>
+
     <script src="https://kit.fontawesome.com/390878a2e6.js" crossorigin="anonymous"></script>
     <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
     <script src="./js/script.js"></script>
 </body>

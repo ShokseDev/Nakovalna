@@ -1,5 +1,5 @@
-@import 'libs/bootstrap-reboot.min';
-@import 'libs/bootstrap-grid.min.scss';
+@import 'libs/bootstrap-grid.scss';
+@import 'libs/bootstrap-reboot.scss';
 
 @import 'base/variables';
 
@@ -7,22 +7,8 @@
     font-family: 'Mulish', sans-serif;
 }
 
-.title {
-
-    margin-top: 75px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 34px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #3A3845;
-
-    &_mini {
-        text-align: left;
-        font-size: 25px;
-    }
-}
-
+@import 'blocks/title';
+@import 'blocks/pageup';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/buttons';

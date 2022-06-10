@@ -1,6 +1,16 @@
 $(document).ready(function () {
     //Phone mask 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+    // pageup button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1400) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+    
 });
 
 window.addEventListener('DOMContentLoaded', () => {
